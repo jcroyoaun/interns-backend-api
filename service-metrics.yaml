@@ -1,0 +1,14 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: interns-backend-service
+  labels:
+    app: interns-backend-api
+spec:
+  selector:
+    app: interns-backend-api
+  ports:
+  - port: 8001
+    protocol: TCP
+    targetPort: 8001
+  type: ClusterIP

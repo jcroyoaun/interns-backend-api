@@ -2,6 +2,7 @@ kind: Service
 apiVersion: v1
 metadata:
   name: interns-backend-service
+  namespace: capstone
   labels:
     app: interns-backend-api
 spec:

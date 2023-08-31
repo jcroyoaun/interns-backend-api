@@ -2,6 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name:  interns-backend-api
+  namespace: capstone
   labels:
     app: interns-backend-api
 spec:
